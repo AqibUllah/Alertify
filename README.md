@@ -8,7 +8,7 @@ extra thing [Animation](https://animate.style) animate the alerts.
 ## Installation
 
 ```
-composer require alertify/alert
+composer require alertify/alert "~1.0.0"
 ```
 ***now publishing the provider Alertify\Alert\AlertifyServiceProvider***
 ```
