@@ -1,5 +1,5 @@
 # Laravel Alertify Alert
-![alt text](https://raw.githubusercontent.com/AqibUllah/Alertify/master/Alertify/src/public/assets/img.png)
+![alt text](https://raw.githubusercontent.com/AqibUllah/Alertify/master/src/public/assets/img.png)
 
 This package provides a way of easy alerts for the UI of your app.
 
