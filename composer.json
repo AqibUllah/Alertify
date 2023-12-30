@@ -2,7 +2,7 @@
     "name": "alertify/alert",
     "description": "awesome alert messages",
     "type": "library",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "Alertify\\Alert\\": "src/"
@@ -14,7 +14,7 @@
             "email": "aqibullah3312@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "extra": {
         "laravel": {
