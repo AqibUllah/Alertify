@@ -1,0 +1,26 @@
+{
+    "name": "alertify/alert",
+    "description": "awesome alert messages",
+    "type": "library",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "Alertify\\Alert\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "aqibullah",
+            "email": "aqibullah3312@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alertify\\Alert\\AlertifyServiceProvider"
+            ]
+        }
+    }
+}
