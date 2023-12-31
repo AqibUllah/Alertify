@@ -1,8 +1,15 @@
 {
     "name": "alertify/alert",
     "description": "awesome alert messages",
+    "keywords": [
+        "alertify",
+        "alert",
+        "messages",
+        "toast"
+    ],
     "type": "library",
     "version": "1.0.0",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Alertify\\Alert\\": "src/"
@@ -14,13 +21,17 @@
             "email": "aqibullah3312@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
     "require": {},
     "extra": {
         "laravel": {
             "providers": [
                 "Alertify\\Alert\\AlertifyServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "alertify": "Alertify\\AlertFacade"
+            }
         }
     }
 }
