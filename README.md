@@ -12,8 +12,12 @@ composer require alertify/alert "~1.0.0"
 ```
 ***now publishing the provider Alertify\Alert\AlertifyServiceProvider***
 ```
-php artisan vendor:publish
-php artisan vendor:publish --tag=public --force
+php artisan vendor:publish --provider="Alertify\Alert\AlertifyServiceProvider" 
+```
+
+**You can customize animation , pulse enabled / disabled and icons show/hide from**
+```php
+config/alertify.php
 ```
 
 Laravel should be able to automatically detect the package and include it.
